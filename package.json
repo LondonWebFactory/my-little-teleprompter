@@ -1,0 +1,10 @@
+{
+  "name": "My Little Teleprompter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.7.9",
+    "font-awesome": "^4.7.0",
+    "photonkit": "^0.1.2"
+  }
+}
