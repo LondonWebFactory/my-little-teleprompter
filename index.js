@@ -128,6 +128,11 @@ document.addEventListener("DOMContentLoaded",function(){
         toggleDisplay("#header");
         toggleDisplay("#tabsWrp");
         toggleDisplay("#btnFullScreenOffWrp");
+
+        var electron = require('electron');
+        var window = electron.remote.getCurrentWindow();
+        console.log(window.setFullScreen());
+        window.setFullScreen(true);
     }
 
     document.querySelector("#tabTeleprompter").onclick = function () {
